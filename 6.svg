@@ -1,0 +1,61 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300">
+    <style>
+    #b_strokes {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: dash 3s linear 3s infinite;
+    }
+
+    #b_fill {
+        animation: FillIn 3s linear 3s infinite;
+    }
+
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes FillIn {
+      0% { fill-opacity: 0; }
+      50% { fill-opacity: 1; }
+      100% { fill-opacity: 1; }
+    }
+
+    </style>
+<defs>
+<g id="Layer1_0_FILL">
+<path fill="#333333" stroke="none" d="
+M 196.55 143.65
+L 196.55 74 58.55 74 58.55 143.65 196.55 143.65 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#333333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 198.85 206.5
+Q 209.05 199.3 201.75 196.05 195 193 184.95 195.85 174.2 198.8 176.95 205.35 177.65 206.95 179.1 208.6 190 212.7 198.85 206.5 Z
+M 128.7 151.15
+L 135.5 162.75
+Q 144 176.4 152.65 186.75 167.1 203.9 179.1 208.6 180.15 209.8 183.15 213.8 186.25 217.75 189 220.2 197.45 227.5 206.45 224.15"/>
+</defs>
+
+<g id="fill_outer">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use id="b_fill" xlink:href="#Layer1_0_FILL"/>
+</g>
+</g>
+
+<g id="stroke_outer">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use id="b_strokes" xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<script>
+var a = document.getElementById("fill_outer");
+var b = document.getElementById("stroke_outer");
+console.log(a);
+a.setAttribute("transform","translate(50, 20)");
+b.setAttribute("transform","translate(50, -20)");
+</script>
+</svg>
