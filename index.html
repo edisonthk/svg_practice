@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>SVG メモ帳</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimal-ui">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+    <h1>SVG メモ帳</h1>
+
+    <div class="full-width-container"></div>
+
+    <script type="text/javascript">
+    var data = [
+        /* 1 */ { desc: 'Adobe Animate CCで書いたシンプルの絵をイメージとして書き出すサンプル' },
+        /* 2 */ { desc: 'cssはdefsの中の図形に存在している属性は制御不能。' },
+        /* 3 */ { desc: 'stroke: salmon;で線の色を調整、stroke-width: 5;で線の太さを調整' },
+        /* 4 */ { desc: '線描きのアニメーションはstroke-dashoffsetとstroke-dasharray で作られています。<br/>'+
+                  '<a href="https://css-tricks.com/svg-line-animation-works/">css-tricks.com</a>から参照' },
+        /* 5 */ { desc: '真ん中のブラックボックスはfill-opacityでフェドインを作っています。' },
+        /* 6 */ { desc: '真ん中のブラックボックスはfill-opacityでフェドインを作っています。' },
+        /* 7 */ { desc: '真ん中のブラックボックスはfill-opacityでフェドインを作っています。' },
+    ];
+
+
+    var _container = document.querySelector(".full-width-container");
+    for (var i = 0; i < data.length; i++) {
+        var _div = document.createElement("div");
+        _div.className = "cell";
+        _div.innerHTML = ''+
+            '<div class="cell"><div class="num">'+(i+1)+'</div><embed src="'+(i+1)+'.svg" />'+
+            '<p class="desc">'+data[i].desc+'</p>'+
+        '</div>';
+
+        _container.appendChild(_div);
+    }
+
+    </script>
+</body>
+</html>

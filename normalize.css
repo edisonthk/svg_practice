@@ -1,0 +1,57 @@
+html, body {
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font: 100%/1.5 "Roboto", Verdana, sans-serif;
+}
+
+h1, h2, h3,h4,h5,p,div {
+    color: #605E5E;
+}
+
+
+h1 {
+    margin: 20px;
+    font-size: 200%;
+}
+
+.full-width-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.cell {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.cell .num {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #605E5E;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cell .desc {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    font-size: 80%;
+    text-align: left;
+    margin: 0;
+}

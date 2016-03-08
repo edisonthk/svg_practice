@@ -1,0 +1,40 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300">
+<defs>
+<linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="133.35" y1="109.2625" x2="125.65" y2="-37.66250000000001" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="37.64705882352941%" stop-color="#FFFFFF"/>
+</linearGradient>
+
+<g id="_____5_0_Layer0_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 257.15 68.8
+L 255.3 33.75 237.7 34.65 237.1 23.6 136.4 28.9 136.1 22.4 98.4 24.35 97.1 0 0 5.1 7.35 145.25 84.65 141.2 85 147.95 177.6 143.1 243.2 139.65 241.45 105.6 239.55 69.7 257.15 68.8 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#CC0000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 196.1 46.75
+Q 197.2 56.3 173 64.55 148.85 72.8 113.45 74.95 78.15 77.1 52.35 71.85 26.65 66.65 25.55 57.1 24.4 47.55 48.55 39.25 72.75 31 108.05 28.85 143.45 26.7 169.15 31.95 195 37.2 196.1 46.75 Z
+M 130.35 110.8
+Q 131 118.85 116.3 125.85 107 130.25 95 132.6 88.05 133.95 80.15 134.65 58.7 136.45 43.05 132 27.4 127.6 26.75 119.55 26.05 111.5 40.7 104.5 55.45 97.55 76.9 95.75 86.55 94.9 95 95.35 105.35 95.9 113.95 98.35 129.65 102.75 130.35 110.8 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 0.9962921142578125, -0.0839080810546875, 0.0839080810546875, 0.9962921142578125, 27.65,38.05) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="276.8" height="242" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="9.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;style&gt;</tspan><tspan x="0" y="24.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">#b_strokes { stroke: salmon; }</tspan><tspan x="0" y="39.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;/style&gt;</tspan><tspan x="0" y="54.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;defs&gt;</tspan><tspan x="0" y="69.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;path id=&quot;Layer1_0_1_STROKES&quot; </tspan><tspan x="0" y="84.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">stroke=&quot;#000000&quot; stroke-linecap=&quot;round&quot; </tspan><tspan x="0" y="99.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">fill=&quot;none&quot; d=&quot;</tspan><tspan x="0" y="114.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">M 90.5 116</tspan><tspan x="0" y="129.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">L 29 116 29 42 152 42 152 116 90.5 116 129 178 </tspan><tspan x="0" y="144.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">205 178&quot;/&gt;</tspan><tspan x="0" y="159.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;/defs&gt;</tspan><tspan x="0" y="174.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve"></tspan><tspan x="0" y="189.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;g transform=&quot;matrix( 1, 0, 0, 1, 0,0) &quot;&gt;</tspan><tspan x="0" y="204.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;use id=&quot;b_strokes&quot; </tspan><tspan x="0" y="219.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">xlink:href=&quot;#Layer1_0_1_STROKES&quot;/&gt;</tspan><tspan x="0" y="234.75" baseline-shift="0%" font-family="Times" font-size="13" fill="#333333" xml:space="preserve">&lt;/g&gt;</tspan></text>
+</g>
+
+<g transform="matrix( -0.9994049072265625, 0.0316314697265625, -0.0483856201171875, -1.5290679931640625, 277.05,313.55) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#_____5_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>
